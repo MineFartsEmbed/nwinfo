@@ -11,7 +11,7 @@
 #include <functiondiscoverykeys_devpkey.h>
 
 #define HDA_IDS_IMPL
-#include <hda_ids.h>
+#include "nwinfo/ids/hda_ids.h"
 
 DEFINE_GUID(IID_IMMDeviceEnumerator,
 	0xa95664d2, 0x9614, 0x4f35, 0xa7, 0x46, 0xde, 0x8d, 0xb6, 0x36, 0x17, 0xe6);

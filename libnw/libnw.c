@@ -12,10 +12,10 @@
 #include "gpu/gpu.h"
 #include "cpu/rdmsr.h"
 #include "sensor/sensors.h"
-#include "pci_ids.h"
-#include "pnp_ids.h"
-#include "usb_ids.h"
-#include "spd_ids.h"
+#include "nwinfo/ids/pci_ids.h"
+#include "nwinfo/ids/pnp_ids.h"
+#include "nwinfo/ids/usb_ids.h"
+#include "nwinfo/ids/spd_ids.h"
 
 PNWLIB_CONTEXT NWLC = NULL;
 

@@ -4,7 +4,7 @@
 #include "nwinfo/ioctl/ioctl.h"
 #include "nwinfo/ioctl/superio.h"
 #include "nwinfo/libnw/libnw.h"
-#include <chip_ids.h>
+#include "nwinfo/ids/chip_ids.h"
 
 #include "nwinfo/libnw/lpc/lpc.h"
 

@@ -4,7 +4,7 @@
 #include <windows.h>
 #include <stdio.h>
 #include "nwinfo/ioctl/ioctl.h"
-#include "pci_ids.h"
+#include "nwinfo/ids/pci_ids.h"
 
 #define SMBHSTSTS       (0U + ctx->base_addr)
 #define SMBHSLVSTS      (1U + ctx->base_addr)

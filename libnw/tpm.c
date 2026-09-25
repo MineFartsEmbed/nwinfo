@@ -12,7 +12,7 @@
 #include "nwinfo/libnw/utils.h"
 
 #define TPM_IDS_IMPL
-#include "tpm_ids.h"
+#include "nwinfo/ids/tpm_ids.h"
 
 typedef struct _NWL_TPM_ALGORITHM_NAME_ENTRY
 {

@@ -8,7 +8,7 @@
 #include <intrin.h>
 #include "nwinfo/ioctl/ioctl.h"
 #include "nwinfo/libnw/libnw.h"
-#include "pci_ids.h"
+#include "nwinfo/ids/pci_ids.h"
 
 typedef struct
 {

@@ -9,7 +9,7 @@
 #include "nwinfo/libnw/gpu/gpu.h"
 #include "nwinfo/libnw/gpu/adl.h"
 #include "nwinfo/libnw/libnw.h"
-#include "pci_ids.h"
+#include "nwinfo/ids/pci_ids.h"
 
 #define ATIADL "ADL"
 

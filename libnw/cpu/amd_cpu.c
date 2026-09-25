@@ -2,7 +2,7 @@
 
 #include "nwinfo/libnw/cpu/rdmsr.h"
 #include "nwinfo/ioctl/ryzen_smu.h"
-#include "pci_ids.h"
+#include "nwinfo/ids/pci_ids.h"
 
 /*
   AMD BIOS and Kernel Developer's Guide (BKDG)

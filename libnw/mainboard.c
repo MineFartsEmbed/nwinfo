@@ -10,11 +10,11 @@
 #include "nwinfo/libnw/tpm.h"
 
 #define MB_VENDOR_IMPL
-#include "mb_vendor.h"
+#include "nwinfo/ids/mb_vendor.h"
 #define CHIPSET_IDS_IMPL
-#include "chipset_ids.h"
+#include "nwinfo/ids/chipset_ids.h"
 
-#include "chip_ids.h"
+#include "nwinfo/ids/chip_ids.h"
 
 #include "lpc/lpc.h"
 
