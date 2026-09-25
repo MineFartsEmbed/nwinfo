@@ -4,8 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "libnw.h"
-#include "utils.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
 
 
 #pragma pack(1)

@@ -8,8 +8,8 @@
 #include <devguid.h>
 #include <powrprof.h>
 
-#include "libnw.h"
-#include "utils.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
 
 static DWORD
 PwrGetActiveScheme(GUID** ActivePolicyGuid)

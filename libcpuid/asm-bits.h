@@ -25,7 +25,7 @@
  */
 #ifndef __ASM_BITS_H__
 #define __ASM_BITS_H__
-#include "libcpuid.h"
+#include "nwinfo/libcpuid/libcpuid.h"
 
 /* Determine Compiler: */
 #if defined(_MSC_VER)

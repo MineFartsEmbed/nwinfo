@@ -1,7 +1,7 @@
 ﻿// SPDX-License-Identifier: Unlicense
 
 #include <windows.h>
-#include "adl.h"
+#include "nwinfo/libnw/gpu/adl.h"
 
 typedef int (*ADL2_MAIN_CONTROL_CREATE)(ADL_MAIN_MALLOC_CALLBACK, int, void**);
 typedef int (*ADL2_MAIN_CONTROL_DESTROY)(void*);

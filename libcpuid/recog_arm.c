@@ -29,10 +29,10 @@
 #include <string.h>
 #include <ctype.h>
 #include <inttypes.h>
-#include "libcpuid.h"
-#include "libcpuid_util.h"
-#include "libcpuid_internal.h"
-#include "recog_arm.h"
+#include "nwinfo/libcpuid/libcpuid.h"
+#include "nwinfo/libcpuid/libcpuid_util.h"
+#include "nwinfo/libcpuid/libcpuid_internal.h"
+#include "nwinfo/libcpuid/recog_arm.h"
 
 
 struct arm_feature_field_t {

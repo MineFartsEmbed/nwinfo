@@ -5,7 +5,7 @@
 #define VC_EXTRALEAN
 #include <windows.h>
 
-#include "nwapi.h"
+#include "nwinfo/libnw/nwapi.h"
 
 #define NFLG_PLACEHOLDER		0x1		// Node is a placeholder with no attributes
 #define NFLG_TABLE				0x2		// Node represents an array of tabular rows

@@ -2,7 +2,7 @@
 #pragma once
 
 #include <windows.h>
-#include "nwapi.h"
+#include "nwinfo/libnw/nwapi.h"
 
 #ifndef NWL_STR_SIZE
 #define NWL_STR_SIZE 64

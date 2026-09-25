@@ -30,10 +30,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "libcpuid.h"
-#include "libcpuid_util.h"
-#include "libcpuid_arm_driver.h"
-#include "rdcpuid.h"
+#include "nwinfo/libcpuid/libcpuid.h"
+#include "nwinfo/libcpuid/libcpuid_util.h"
+#include "nwinfo/libcpuid/libcpuid_arm_driver.h"
+#include "nwinfo/libcpuid/rdcpuid.h"
 
 #define CPUID_PATH_LEN 32
 

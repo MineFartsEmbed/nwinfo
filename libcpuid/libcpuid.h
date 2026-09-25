@@ -124,10 +124,10 @@
 #define LIBCPUID_DISABLE_DEPRECATED
 
 /* Include some integer type specifications: */
-#include "libcpuid_types.h"
+#include "nwinfo/libcpuid/libcpuid_types.h"
 
 /* Some limits and other constants */
-#include "libcpuid_constants.h"
+#include "nwinfo/libcpuid/libcpuid_constants.h"
 
 #ifndef LIBCPUID_DEPRECATED
 #  if defined (__cplusplus) && (__cplusplus >= 201402) /* C++14 or greater */

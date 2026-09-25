@@ -4,10 +4,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "libcpuid.h"
+#include "nwinfo/libcpuid/libcpuid.h"
 #include "ioctl.h"
 #include "ryzen_smu.h"
-#include "nwapi.h"
+#include "nwinfo/libnw/nwapi.h"
 
 typedef enum
 {

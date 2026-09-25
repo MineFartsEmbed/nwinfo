@@ -3,11 +3,11 @@
 #include <lpcio.h>
 #include <ioctl.h>
 #include <superio.h>
-#include <libnw.h>
+#include "nwinfo/libnw/libnw.h"
 #include <chip_ids.h>
 #include <mb_vendor.h>
 
-#include "lpc.h"
+#include "nwinfo/libnw/lpc/lpc.h"
 
 static bool detect_fintek(plpcio io, NWLIB_MAINBOARD_INFO* board, NWLIB_LPC_SLOT* slot)
 {

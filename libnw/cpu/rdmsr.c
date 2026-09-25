@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Unlicense
 
-#include "rdmsr.h"
+#include "nwinfo/libnw/cpu/rdmsr.h"
 #include <windows.h>
 
 extern struct msr_fn_t msr_fn_intel;

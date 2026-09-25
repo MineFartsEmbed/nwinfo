@@ -23,17 +23,17 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-#include "libcpuid.h"
-#include "libcpuid_internal.h"
-#include "recog_amd.h"
-#include "recog_arm.h"
-#include "recog_centaur.h"
-#include "recog_intel.h"
-#include "asm-bits.h"
-#include "libcpuid_util.h"
+#include "nwinfo/libcpuid/libcpuid.h"
+#include "nwinfo/libcpuid/libcpuid_internal.h"
+#include "nwinfo/libcpuid/recog_amd.h"
+#include "nwinfo/libcpuid/recog_arm.h"
+#include "nwinfo/libcpuid/recog_centaur.h"
+#include "nwinfo/libcpuid/recog_intel.h"
+#include "nwinfo/libcpuid/asm-bits.h"
+#include "nwinfo/libcpuid/libcpuid_util.h"
 #if defined(PLATFORM_ARM) || defined(PLATFORM_AARCH64)
-# include "libcpuid_arm_driver.h"
-# include "rdcpuid.h"
+#include "nwinfo/libcpuid/libcpuid_arm_driver.h"
+#include "nwinfo/libcpuid/rdcpuid.h"
 #endif /* ARM */
 #ifdef HAVE_CONFIG_H
 # include "config.h"

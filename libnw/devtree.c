@@ -7,9 +7,9 @@
 #include <devpkey.h>
 #include <devpropdef.h>
 
-#include "libnw.h"
-#include "utils.h"
-#include "devtree.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
+#include "nwinfo/libnw/devtree.h"
 
 #pragma comment(lib, "cfgmgr32.lib")
 

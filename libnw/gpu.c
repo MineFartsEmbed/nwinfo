@@ -6,9 +6,9 @@
 #include <devpkey.h>
 #include <d3dcommon.h>
 
-#include "libnw.h"
-#include "utils.h"
-#include "devtree.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
+#include "nwinfo/libnw/devtree.h"
 #include "gpu/gpu.h"
 
 extern NWLIB_GPU_DRV gpu_drv_intel;

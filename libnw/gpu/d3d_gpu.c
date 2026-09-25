@@ -10,9 +10,9 @@
 #include <d3dkmthk.h>
 #include <dxgi.h>
 #include <ioctl.h>
-#include "gpu.h"
-#include "utils.h"
-#include "libnw.h"
+#include "nwinfo/libnw/gpu/gpu.h"
+#include "nwinfo/libnw/utils.h"
+#include "nwinfo/libnw/libnw.h"
 
 #pragma comment(lib, "dxguid.lib")
 

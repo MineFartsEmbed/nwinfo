@@ -8,9 +8,9 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libnw.h"
-#include "utils.h"
-#include "efivars.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
+#include "nwinfo/libnw/efivars.h"
 
 typedef DWORD(WINAPI* PFN_CERT_GET_NAME_STRING_W)(PCCERT_CONTEXT, DWORD, DWORD, void*, LPWSTR, DWORD);
 typedef DWORD(WINAPI* PFN_CERT_NAME_TO_STR_W)(DWORD, PCERT_NAME_BLOB, DWORD, LPWSTR, DWORD);

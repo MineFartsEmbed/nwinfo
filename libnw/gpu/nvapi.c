@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Unlicense
 
-#include "nvapi.h"
+#include "nwinfo/libnw/gpu/nvapi.h"
 
 #ifdef _WIN64
 #define NVAPI_DLL_NAME L"nvapi64.dll"

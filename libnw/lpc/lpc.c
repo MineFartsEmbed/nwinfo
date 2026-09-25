@@ -3,10 +3,10 @@
 #include <lpcio.h>
 #include <ioctl.h>
 #include <superio.h>
-#include <libnw.h>
+#include "nwinfo/libnw/libnw.h"
 #include <chip_ids.h>
 
-#include "lpc.h"
+#include "nwinfo/libnw/lpc/lpc.h"
 
 extern NWLIB_LPC_DRV lpc_fintek_drv;
 extern NWLIB_LPC_DRV lpc_winbond_drv;

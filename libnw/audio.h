@@ -5,7 +5,7 @@
 #define VC_EXTRALEAN
 #include <windows.h>
 
-#include "nwapi.h"
+#include "nwinfo/libnw/nwapi.h"
 
 #ifdef __cplusplus
 extern "C" {

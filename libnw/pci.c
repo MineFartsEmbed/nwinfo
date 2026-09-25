@@ -6,8 +6,8 @@
 #include <setupapi.h>
 #include <devpkey.h>
 
-#include "libnw.h"
-#include "utils.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
 #include "stb_ds.h"
 
 #pragma comment(lib, "setupapi.lib")

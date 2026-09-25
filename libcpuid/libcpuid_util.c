@@ -32,9 +32,9 @@
 #ifdef HAVE_CONFIG_H
 #include "config.h"
 #endif
-#include "libcpuid.h"
-#include "libcpuid_util.h"
-#include "libcpuid_internal.h"
+#include "nwinfo/libcpuid/libcpuid.h"
+#include "nwinfo/libcpuid/libcpuid_util.h"
+#include "nwinfo/libcpuid/libcpuid_internal.h"
 
 int _current_verboselevel;
 

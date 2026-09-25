@@ -5,11 +5,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "libnw.h"
-#include "utils.h"
-#include "efivars.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
+#include "nwinfo/libnw/efivars.h"
 #include "ioctl.h"
-#include "tpm.h"
+#include "nwinfo/libnw/tpm.h"
 
 #define PSAPI_VERSION 1
 #include <psapi.h>

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Unlicense
 
 #include <stdlib.h>
-#include "base64.h"
+#include "nwinfo/libnw/base64.h"
 
 static char Base64Table[] =
 	"ABCDEFGHIJKLMNOPQRSTUVWXYZ"

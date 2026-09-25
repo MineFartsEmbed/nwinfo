@@ -3,11 +3,11 @@
 #include <lpcio.h>
 #include <ioctl.h>
 #include <superio.h>
-#include <libnw.h>
+#include "nwinfo/libnw/libnw.h"
 #include <chip_ids.h>
 #include <mb_vendor.h>
 
-#include "lpc.h"
+#include "nwinfo/libnw/lpc/lpc.h"
 
 #define CONFIGURATION_CONTROL_REGISTER 0x02
 #define IT87_CHIP_VERSION_REGISTER 0x22

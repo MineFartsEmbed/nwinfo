@@ -5,8 +5,8 @@
 #include <stdlib.h>
 #include <wininet.h>
 
-#include "libnw.h"
-#include "utils.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
 
 static HINTERNET (WINAPI *OsInetOpen) (LPCWSTR, DWORD, LPCWSTR, LPCWSTR, DWORD);
 static HINTERNET (WINAPI *OsInetOpenUrl) (HINTERNET, LPCWSTR, LPCWSTR, DWORD, DWORD, DWORD_PTR);

@@ -8,8 +8,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "tpm.h"
-#include "utils.h"
+#include "nwinfo/libnw/tpm.h"
+#include "nwinfo/libnw/utils.h"
 
 #define TPM_IDS_IMPL
 #include "tpm_ids.h"

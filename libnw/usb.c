@@ -8,9 +8,9 @@
 #include <usbioctl.h>
 #include <devpkey.h>
 
-#include "libnw.h"
-#include "utils.h"
-#include "devtree.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
+#include "nwinfo/libnw/devtree.h"
 
 #define USB_STRING_DESCRIPTOR_MAX_LEN 255
 #define USB_PIPE_INFO_MAX_COUNT 64

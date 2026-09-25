@@ -4,7 +4,7 @@
 #include <windows.h>
 #include <wchar.h>
 
-#include "igcl.h"
+#include "nwinfo/libnw/gpu/igcl.h"
 
 typedef ctl_result_t(CTL_APICALL* ctl_pfnInit_t)(
 	ctl_init_args_t*,

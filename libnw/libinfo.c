@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: Unlicense
 
-#include "libnw.h"
-#include "utils.h"
-#include "libcpuid.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
+#include "nwinfo/libcpuid/libcpuid.h"
 #include "ioctl.h"
 #include "../libcdi/libcdi.h"
-#include "version.h"
+#include "nwinfo/libnw/version.h"
 
 #pragma comment(lib, "version.lib")
 

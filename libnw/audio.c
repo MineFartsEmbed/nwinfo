@@ -2,10 +2,10 @@
 
 #include <initguid.h>
 
-#include "libnw.h"
-#include "audio.h"
-#include "devtree.h"
-#include "utils.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/audio.h"
+#include "nwinfo/libnw/devtree.h"
+#include "nwinfo/libnw/utils.h"
 #include <mmdeviceapi.h>
 #include <endpointvolume.h>
 #include <functiondiscoverykeys_devpkey.h>

@@ -5,11 +5,11 @@
 #include <string.h>
 #include <windows.h>
 #include <winioctl.h>
-#include "libnw.h"
-#include "utils.h"
-#include "smbios.h"
-#include "acpi.h"
-#include "libcpuid.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
+#include "nwinfo/libnw/smbios.h"
+#include "nwinfo/libnw/acpi.h"
+#include "nwinfo/libcpuid/libcpuid.h"
 #include "ioctl.h"
 
 #if defined(_MSC_VER)

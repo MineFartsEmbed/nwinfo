@@ -26,7 +26,7 @@
 #ifndef __LIBCPUID_UTIL_H__
 #define __LIBCPUID_UTIL_H__
 
-#include "libcpuid_internal.h"
+#include "nwinfo/libcpuid/libcpuid_internal.h"
 
 #define COUNT_OF(array) (sizeof(array) / sizeof(array[0]))
 #define UNUSED(x) (void)(x)

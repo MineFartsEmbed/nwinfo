@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: Unlicense
 #pragma once
 
-#include "nt.h"
-#include "node.h"
-#include "nwapi.h"
+#include "nwinfo/libnw/nt.h"
+#include "nwinfo/libnw/node.h"
+#include "nwinfo/libnw/nwapi.h"
 
 struct RAW_SMBIOS_DATA;
 struct ACPI_RSDP_V2;

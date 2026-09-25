@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Unlicense
 
-#include "rdmsr.h"
+#include "nwinfo/libnw/cpu/rdmsr.h"
 
 /*
   Intel 64 and IA-32 Architectures Software Developer's Manual

@@ -9,8 +9,8 @@
 #include <hidsdi.h>
 #include <hidpi.h>
 
-#include "libnw.h"
-#include "utils.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
 
 typedef void (WINAPI* PFN_HidD_GetHidGuid)(LPGUID);
 typedef BOOLEAN (WINAPI* PFN_HidD_GetAttributes)(HANDLE, PHIDD_ATTRIBUTES);

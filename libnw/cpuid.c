@@ -4,13 +4,13 @@
 #include <string.h>
 #include <intrin.h>
 
-#include "libnw.h"
-#include "cpuid.h"
-#include <libcpuid_util.h>
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/cpuid.h"
+#include "nwinfo/libcpuid/libcpuid_util.h"
 #include "cpu/rdmsr.h"
 
-#include "utils.h"
-#include "smbios.h"
+#include "nwinfo/libnw/utils.h"
+#include "nwinfo/libnw/smbios.h"
 
 static __int64
 CpuCompareFileTime(const FILETIME* time1, const FILETIME* time2)

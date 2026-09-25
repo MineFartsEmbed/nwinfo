@@ -7,9 +7,9 @@
 #include <netioapi.h>
 #include <wlanapi.h>
 
-#include "libnw.h"
-#include "utils.h"
-#include "network.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
+#include "nwinfo/libnw/network.h"
 #include "stb_ds.h"
 
 #pragma comment(lib, "iphlpapi.lib")

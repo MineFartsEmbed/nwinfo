@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: Unlicense
 
-#include "libnw.h"
-#include "smbios.h"
-#include "utils.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/smbios.h"
+#include "nwinfo/libnw/utils.h"
 
 const char* NWL_GetDmiString(UINT8* hdr, UINT8 offset)
 {

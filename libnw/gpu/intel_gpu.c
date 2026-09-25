@@ -6,9 +6,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <windows.h>
-#include "igcl.h"
-#include "gpu.h"
-#include "libnw.h"
+#include "nwinfo/libnw/gpu/igcl.h"
+#include "nwinfo/libnw/gpu/gpu.h"
+#include "nwinfo/libnw/libnw.h"
 #include "pci_ids.h"
 
 #define IGCL "IGCL"

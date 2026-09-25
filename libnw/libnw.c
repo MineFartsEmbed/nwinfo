@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: Unlicense
 
-#include "libnw.h"
-#include "utils.h"
-#include "efivars.h"
-#include "network.h"
-#include "cpuid.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
+#include "nwinfo/libnw/efivars.h"
+#include "nwinfo/libnw/network.h"
+#include "nwinfo/libnw/cpuid.h"
 
-#include "libcpuid.h"
+#include "nwinfo/libcpuid/libcpuid.h"
 #include "../libcdi/libcdi.h"
 #include "smbus/smbus.h"
 #include "gpu/gpu.h"

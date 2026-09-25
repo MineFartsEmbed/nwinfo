@@ -4,10 +4,10 @@
 #include <string.h>
 #include <windows.h>
 #include <winioctl.h>
-#include "libnw.h"
-#include "utils.h"
-#include "disk.h"
-#include "sensors.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
+#include "nwinfo/libnw/disk.h"
+#include "nwinfo/libnw/sensor/sensors.h"
 
 struct disk_stats
 {

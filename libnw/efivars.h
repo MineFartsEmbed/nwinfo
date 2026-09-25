@@ -6,7 +6,7 @@
 #define VC_EXTRALEAN
 #include <windows.h>
 
-#include "nwapi.h"
+#include "nwinfo/libnw/nwapi.h"
 
 #pragma pack(1)
 

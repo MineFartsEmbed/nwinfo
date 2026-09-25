@@ -4,7 +4,7 @@
 #define VC_EXTRALEAN
 #include <windows.h>
 
-#include "nwapi.h"
+#include "nwinfo/libnw/nwapi.h"
 
 #define DISK_PROP_STR_LEN 42
 #define DISK_UUID_STR_LEN 17

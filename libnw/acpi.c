@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: Unlicense
 
-#include "libnw.h"
-#include "utils.h"
-#include "acpi.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
+#include "nwinfo/libnw/acpi.h"
 #include <ioctl.h>
 
 #define ACPI_FIELD_CHK(Hdr, Type, Field) \

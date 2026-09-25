@@ -6,13 +6,13 @@
 #include <windows.h>
 #include <stdnoreturn.h>
 
-#include "nwapi.h"
+#include "nwinfo/libnw/nwapi.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-#include "node.h"
+#include "nwinfo/libnw/node.h"
 
 #define NWINFO_BUFSZ 65535
 #define NWINFO_BUFSZW (NWINFO_BUFSZ / sizeof(WCHAR))

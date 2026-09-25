@@ -4,7 +4,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-#include "node.h"
+#include "nwinfo/libnw/node.h"
 
 typedef struct
 {

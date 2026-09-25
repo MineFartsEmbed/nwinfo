@@ -5,8 +5,8 @@
 #include <windows.h>
 #include <lm.h>
 
-#include "libnw.h"
-#include "utils.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
 
 static void
 EnumConnectedDrives(PNODE pParent)

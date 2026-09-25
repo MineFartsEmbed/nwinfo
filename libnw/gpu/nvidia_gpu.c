@@ -6,9 +6,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <windows.h>
-#include "gpu.h"
-#include "nvapi.h"
-#include "libnw.h"
+#include "nwinfo/libnw/gpu/gpu.h"
+#include "nwinfo/libnw/gpu/nvapi.h"
+#include "nwinfo/libnw/libnw.h"
 #include "pci_ids.h"
 
 #define NVDL "NV"

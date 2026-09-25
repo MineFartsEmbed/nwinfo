@@ -25,10 +25,10 @@
  */
 #include <string.h>
 #include <ctype.h>
-#include "libcpuid.h"
-#include "libcpuid_util.h"
-#include "libcpuid_internal.h"
-#include "recog_intel.h"
+#include "nwinfo/libcpuid/libcpuid.h"
+#include "nwinfo/libcpuid/libcpuid_util.h"
+#include "nwinfo/libcpuid/libcpuid_internal.h"
+#include "nwinfo/libcpuid/recog_intel.h"
 
 
 /*

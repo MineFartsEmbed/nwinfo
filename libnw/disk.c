@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: Unlicense
 
-#include "libnw.h"
-#include "disk.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/disk.h"
 
 #include <setupapi.h>
 #include <winioctl.h>
 
-#include "utils.h"
-#include "vbr.h"
+#include "nwinfo/libnw/utils.h"
+#include "nwinfo/libnw/vbr.h"
 #include "../libcdi/libcdi.h"
 
 static LPCSTR GetRealVolumePath(LPCWSTR lpszVolume)

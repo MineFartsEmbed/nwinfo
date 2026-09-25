@@ -6,9 +6,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <windows.h>
-#include "gpu.h"
-#include "adl.h"
-#include "libnw.h"
+#include "nwinfo/libnw/gpu/gpu.h"
+#include "nwinfo/libnw/gpu/adl.h"
+#include "nwinfo/libnw/libnw.h"
 #include "pci_ids.h"
 
 #define ATIADL "ADL"

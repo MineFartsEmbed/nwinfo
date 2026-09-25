@@ -3,11 +3,11 @@
 #include <lpcio.h>
 #include <ioctl.h>
 #include <superio.h>
-#include <libnw.h>
+#include "nwinfo/libnw/libnw.h"
 #include <chip_ids.h>
 #include <mb_vendor.h>
 
-#include "lpc.h"
+#include "nwinfo/libnw/lpc/lpc.h"
 
 #define NUVOTON_HARDWARE_MONITOR_IO_SPACE_LOCK 0x28
 

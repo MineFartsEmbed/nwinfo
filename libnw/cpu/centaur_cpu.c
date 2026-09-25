@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Unlicense
 
-#include "rdmsr.h"
+#include "nwinfo/libnw/cpu/rdmsr.h"
 
 #define MSR_IA32_PERF_STATUS  0x198
 

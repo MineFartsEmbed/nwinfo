@@ -11,8 +11,8 @@
 #include <math.h>
 #endif
 
-#include "libnw.h"
-#include "utils.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
 
 // We don't include ntddvdeo.h directly to avoid potential conflicts or dependencies.
 // This GUID is for the device interface class for monitors.

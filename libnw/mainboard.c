@@ -4,10 +4,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "libnw.h"
-#include "utils.h"
-#include "smbios.h"
-#include "tpm.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
+#include "nwinfo/libnw/smbios.h"
+#include "nwinfo/libnw/tpm.h"
 
 #define MB_VENDOR_IMPL
 #include "mb_vendor.h"

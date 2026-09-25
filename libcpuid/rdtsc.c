@@ -25,10 +25,10 @@
  */
 #include <stdio.h>
 #include <string.h>
-#include "libcpuid.h"
-#include "libcpuid_util.h"
-#include "asm-bits.h"
-#include "rdtsc.h"
+#include "nwinfo/libcpuid/libcpuid.h"
+#include "nwinfo/libcpuid/libcpuid_util.h"
+#include "nwinfo/libcpuid/asm-bits.h"
+#include "nwinfo/libcpuid/rdtsc.h"
 
 #ifdef _WIN32
 #include <windows.h>

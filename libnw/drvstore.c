@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: Unlicense
 
-#include "drvstore.h"
-#include "libnw.h"
-#include "utils.h"
+#include "nwinfo/libnw/drvstore.h"
+#include "nwinfo/libnw/libnw.h"
+#include "nwinfo/libnw/utils.h"
 
 #include <stdlib.h>
 #include <string.h>

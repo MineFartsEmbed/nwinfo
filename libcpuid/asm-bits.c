@@ -24,9 +24,9 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "libcpuid.h"
-#include "libcpuid_util.h"
-#include "asm-bits.h"
+#include "nwinfo/libcpuid/libcpuid.h"
+#include "nwinfo/libcpuid/libcpuid_util.h"
+#include "nwinfo/libcpuid/asm-bits.h"
 
 int cpuid_exists_by_eflags(void)
 {
