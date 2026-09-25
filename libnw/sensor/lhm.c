@@ -3,7 +3,7 @@
 #include "nwinfo/libnw/libnw.h"
 #include "nwinfo/libnw/utils.h"
 #include "nwinfo/libnw/sensor/sensors.h"
-#include "../liblhm/lhm.h"
+#include "nwinfo/liblhm/lhm.h"
 #include <pathcch.h>
 
 static struct
