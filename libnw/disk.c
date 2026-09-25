@@ -8,7 +8,7 @@
 
 #include "nwinfo/libnw/utils.h"
 #include "nwinfo/libnw/vbr.h"
-#include "../libcdi/libcdi.h"
+#include "nwinfo/libcdi/libcdi.h"
 
 static LPCSTR GetRealVolumePath(LPCWSTR lpszVolume)
 {

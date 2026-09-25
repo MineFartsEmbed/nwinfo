@@ -4,7 +4,7 @@
 #include "nwinfo/libnw/utils.h"
 #include "nwinfo/libcpuid/libcpuid.h"
 #include "nwinfo/ioctl/ioctl.h"
-#include "../libcdi/libcdi.h"
+#include "nwinfo/libcdi/libcdi.h"
 #include "nwinfo/libnw/version.h"
 
 #pragma comment(lib, "version.lib")

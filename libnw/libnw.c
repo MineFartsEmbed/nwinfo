@@ -7,7 +7,7 @@
 #include "nwinfo/libnw/cpuid.h"
 
 #include "nwinfo/libcpuid/libcpuid.h"
-#include "../libcdi/libcdi.h"
+#include "nwinfo/libcdi/libcdi.h"
 #include "smbus/smbus.h"
 #include "gpu/gpu.h"
 #include "cpu/rdmsr.h"

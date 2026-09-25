@@ -3,7 +3,7 @@
 #include "nwinfo/libnw/libnw.h"
 #include "nwinfo/libnw/utils.h"
 #include "nwinfo/libnw/sensor/sensors.h"
-#include "../../libcdi/libcdi.h"
+#include "nwinfo/libcdi/libcdi.h"
 
 struct disk_info
 {
