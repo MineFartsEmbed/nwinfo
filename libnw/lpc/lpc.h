@@ -2,7 +2,7 @@
 #pragma once
 
 #include "nwinfo/ioctl/lpcio.h"
-#include "../nwapi.h"
+#include "nwinfo/libnw/nwapi.h"
 
 struct _NWLIB_MAINBOARD_INFO;
 

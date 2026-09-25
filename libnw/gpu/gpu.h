@@ -2,7 +2,7 @@
 #pragma once
 
 #include <stdint.h>
-#include "../nwapi.h"
+#include "nwinfo/libnw/nwapi.h"
 
 #if defined(__cplusplus)
 extern "C" {
