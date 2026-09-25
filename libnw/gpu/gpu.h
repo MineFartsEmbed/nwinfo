@@ -1,0 +1,96 @@
+﻿// SPDX-License-Identifier: Unlicense
+#pragma once
+
+#include <stdint.h>
+#include "../nwapi.h"
+
+#if defined(__cplusplus)
+extern "C" {
+#endif
+
+#define MAX_GPU_STR 256
+
+typedef struct _NWLIB_GPU_INFO NWLIB_GPU_INFO, * PNWLIB_GPU_INFO;
+
+#define NWLIB_GPU_FLAG_INTEGRATED (1 << 0)
+#define NWLIB_GPU_FLAG_REBAR_SUPPORT (1 << 1)
+#define NWLIB_GPU_FLAG_REBAR_ENABLED (1 << 2)
+#define NWLIB_GPU_FLAG_NPU (1 << 3)
+
+typedef struct _NWLIB_GPU_PCIE_SPEED
+{
+	uint16_t Gen;
+	uint16_t Lanes;
+} NWLIB_GPU_PCIE_SPEED;
+
+typedef struct _NWLIB_GPU_DEV
+{
+	char Name[MAX_GPU_STR];
+	//char HwId[MAX_GPU_STR];
+	uint32_t VendorId;
+	uint32_t DeviceId;
+	uint32_t Subsys;
+	uint32_t RevId;
+	uint32_t PciBus;
+	uint32_t PciDevice;
+	uint32_t PciFunction;
+	uint32_t DxVersion;
+	NWLIB_GPU_PCIE_SPEED CurSpeed;
+	NWLIB_GPU_PCIE_SPEED MaxSpeed;
+	uint64_t TotalMemory; // Dedicated Video Memory
+	uint64_t FreeMemory; // Dedicated Video Memory
+	uint64_t UsedMemory; // Dedicated Video Memory
+	uint64_t MemoryPercent; // Used Dedicated Video Memory in percent
+	double UsageCounter;
+	double UsagePercent;
+	double Energy;
+	double Power;
+	double Frequency; // MHz
+	double MemoryFrequency; // MHz
+	double Voltage;
+	double Temperature;
+	uint64_t FanSpeed;
+	uint64_t Flags;
+} NWLIB_GPU_DEV;
+
+typedef struct _NWLIB_GPU_DRV
+{
+	const char* Name;
+	void* (*Init)(PNWLIB_GPU_INFO info);
+	uint32_t(*GetInfo)(void* data, NWLIB_GPU_DEV* dev, uint32_t dev_count);
+	void (*Free)(void* data);
+	void* Data;
+} NWLIB_GPU_DRV;
+
+#define NWL_GPU_MAX_COUNT 8
+
+enum _NWLIB_GPU_DRV_TYPE
+{
+	NWLIB_GPU_DRV_INTEL = 0,
+	NWLIB_GPU_DRV_AMD,
+	NWLIB_GPU_DRV_NVIDIA,
+	NWLIB_GPU_DRV_DXCORE,
+	NWLIB_GPU_DRV_D3D,
+	NWLIB_GPU_DRV_COUNT
+};
+
+typedef struct _NODE NODE, * PNODE;
+
+typedef struct _NWLIB_GPU_INFO
+{
+	int Initialized;
+	uint32_t DeviceCount;
+	NWLIB_GPU_DEV Device[NWL_GPU_MAX_COUNT];
+	NWLIB_GPU_DRV* Driver[NWLIB_GPU_DRV_COUNT];
+	PNODE PciList;
+} NWLIB_GPU_INFO, * PNWLIB_GPU_INFO;
+
+LIBNW_API PNWLIB_GPU_INFO NWL_InitGpu(void);
+
+LIBNW_API void NWL_GetGpuInfo(PNWLIB_GPU_INFO info);
+
+LIBNW_API void NWL_FreeGpu(PNWLIB_GPU_INFO info);
+
+#if defined(__cplusplus)
+} // extern "C"
+#endif
