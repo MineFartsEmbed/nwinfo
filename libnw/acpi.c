@@ -3,7 +3,7 @@
 #include "nwinfo/libnw/libnw.h"
 #include "nwinfo/libnw/utils.h"
 #include "nwinfo/libnw/acpi.h"
-#include <ioctl.h>
+#include "nwinfo/ioctl/ioctl.h"
 
 #define ACPI_FIELD_CHK(Hdr, Type, Field) \
 	((Hdr)->Length >= (offsetof(Type, Field) + sizeof(((Type *)0)->Field)))

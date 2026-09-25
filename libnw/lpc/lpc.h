@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Unlicense
 #pragma once
 
-#include <lpcio.h>
+#include "nwinfo/ioctl/lpcio.h"
 #include "../nwapi.h"
 
 struct _NWLIB_MAINBOARD_INFO;

@@ -9,7 +9,7 @@
 #include <d3d12.h>
 #include <d3dkmthk.h>
 #include <dxgi.h>
-#include <ioctl.h>
+#include "nwinfo/ioctl/ioctl.h"
 #include "nwinfo/libnw/gpu/gpu.h"
 #include "nwinfo/libnw/utils.h"
 #include "nwinfo/libnw/libnw.h"

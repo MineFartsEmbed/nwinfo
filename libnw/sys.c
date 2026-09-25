@@ -8,7 +8,7 @@
 #include "nwinfo/libnw/libnw.h"
 #include "nwinfo/libnw/utils.h"
 #include "nwinfo/libnw/efivars.h"
-#include "ioctl.h"
+#include "nwinfo/ioctl/ioctl.h"
 #include "nwinfo/libnw/tpm.h"
 
 #define PSAPI_VERSION 1

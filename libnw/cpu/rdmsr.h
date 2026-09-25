@@ -5,8 +5,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include "nwinfo/libcpuid/libcpuid.h"
-#include "ioctl.h"
-#include "ryzen_smu.h"
+#include "nwinfo/ioctl/ioctl.h"
+#include "nwinfo/ioctl/ryzen_smu.h"
 #include "nwinfo/libnw/nwapi.h"
 
 typedef enum

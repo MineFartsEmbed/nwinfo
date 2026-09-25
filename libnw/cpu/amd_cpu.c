@@ -1,7 +1,7 @@
 ﻿// SPDX-License-Identifier: Unlicense
 
 #include "nwinfo/libnw/cpu/rdmsr.h"
-#include "ryzen_smu.h"
+#include "nwinfo/ioctl/ryzen_smu.h"
 #include "pci_ids.h"
 
 /*

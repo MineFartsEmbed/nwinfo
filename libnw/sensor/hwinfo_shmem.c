@@ -3,7 +3,7 @@
 #include "nwinfo/libnw/libnw.h"
 #include "nwinfo/libnw/utils.h"
 #include "nwinfo/libnw/sensor/sensors.h"
-#include "shmem.h"
+#include "nwinfo/ioctl/shmem.h"
 
 #define HWiNFO_SENSORS_MAP_FILE_NAME2         L"Global\\HWiNFO_SENS_SM2"
 

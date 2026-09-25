@@ -3,7 +3,7 @@
 #include "nwinfo/libnw/libnw.h"
 #include "nwinfo/libnw/utils.h"
 #include "nwinfo/libnw/sensor/sensors.h"
-#include "shmem.h"
+#include "nwinfo/ioctl/shmem.h"
 
 #define GPUZ_SHMEM_NAME L"GPUZShMem"
 #define GPUZ_MAX_RECORDS 128

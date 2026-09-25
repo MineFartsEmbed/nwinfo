@@ -3,7 +3,7 @@
 #include "nwinfo/libnw/libnw.h"
 #include "nwinfo/libnw/utils.h"
 #include "nwinfo/libcpuid/libcpuid.h"
-#include "ioctl.h"
+#include "nwinfo/ioctl/ioctl.h"
 #include "../libcdi/libcdi.h"
 #include "nwinfo/libnw/version.h"
 

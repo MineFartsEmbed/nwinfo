@@ -4,8 +4,8 @@
 #include "nwinfo/libnw/utils.h"
 #include "nwinfo/libnw/sensor/sensors.h"
 #include "nwinfo/libnw/cpuid.h"
-#include "ioctl.h"
-#include "mchbar.h"
+#include "nwinfo/ioctl/ioctl.h"
+#include "nwinfo/ioctl/mchbar.h"
 
 #define SLOT_NAME_SIZE 16
 #define SLOT_COUNT 12

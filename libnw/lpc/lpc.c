@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: Unlicense
 
-#include <lpcio.h>
-#include <ioctl.h>
-#include <superio.h>
+#include "nwinfo/ioctl/lpcio.h"
+#include "nwinfo/ioctl/ioctl.h"
+#include "nwinfo/ioctl/superio.h"
 #include "nwinfo/libnw/libnw.h"
 #include <chip_ids.h>
 

@@ -4,8 +4,8 @@
 #include "nwinfo/libnw/utils.h"
 #include "nwinfo/libnw/sensor/sensors.h"
 #include "nwinfo/libnw/cpuid.h"
-#include "ioctl.h"
-#include "ryzen_smu.h"
+#include "nwinfo/ioctl/ioctl.h"
+#include "nwinfo/ioctl/ryzen_smu.h"
 
 // https://github.com/thor2002ro/zenpower
 // https://github.com/mattkeenan/zenpower5

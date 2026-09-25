@@ -3,7 +3,7 @@
 #include "nwinfo/libnw/smbus/smbus.h"
 #include <windows.h>
 #include <stdio.h>
-#include "ioctl.h"
+#include "nwinfo/ioctl/ioctl.h"
 #include "pci_ids.h"
 
 #define SMBHSTSTS       (0U + ctx->base_addr)

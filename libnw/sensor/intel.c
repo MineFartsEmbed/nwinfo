@@ -4,8 +4,8 @@
 #include "nwinfo/libnw/utils.h"
 #include "nwinfo/libnw/sensor/sensors.h"
 #include "nwinfo/libnw/cpuid.h"
-#include "ioctl.h"
-#include "mchbar.h"
+#include "nwinfo/ioctl/ioctl.h"
+#include "nwinfo/ioctl/mchbar.h"
 #include "cpu/rdmsr.h"
 
 // 900 Series

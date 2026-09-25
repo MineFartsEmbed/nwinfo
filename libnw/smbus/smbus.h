@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 #include <stdbool.h>
-#include "ioctl.h"
+#include "nwinfo/ioctl/ioctl.h"
 #include "nwinfo/libnw/libnw.h"
 
 #define SM_OK             0

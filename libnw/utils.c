@@ -10,7 +10,7 @@
 #include "nwinfo/libnw/smbios.h"
 #include "nwinfo/libnw/acpi.h"
 #include "nwinfo/libcpuid/libcpuid.h"
-#include "ioctl.h"
+#include "nwinfo/ioctl/ioctl.h"
 
 #if defined(_MSC_VER)
 #define NWL_TLS __declspec(thread)
